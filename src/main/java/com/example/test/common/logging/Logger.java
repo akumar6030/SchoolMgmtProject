@@ -34,7 +34,7 @@ public class Logger {
 
 			log.info("EXITING_FROM : " + jointPoint.getSignature().toShortString(),"with successfull execution.");
 			log.info("Method execution time: " + elapsedTime + " milliseconds.", " ");
-
+			log.info("Tested");
 			return obj;
 		} catch (Exception e) {
 			log.error("EXCEPTION_CAME_ON : " + jointPoint.getSignature().toShortString()
